@@ -1,0 +1,52 @@
+---
+title: "Comparing a polling and push-based approach for live Open Data interfaces"
+---
+<header markdown="1">
+# <%= @item[:title] %>
+
+{:#authors}
+- <%= person 'Brecht Van de Vyvere', 'https://brechtvdv.github.io/', 'https://w3id.org/people/brechtvdv/#me' %>
+- <%= person 'Pieter Colpaert', 'https://pietercolpaert.be', 'https://pietercolpaert.be/#me' %>
+- <%= person 'Ruben Verborgh', 'https://ruben.verborgh.org/', 'https://ruben.verborgh.org/profile/#me' %>
+
+{:#affiliations}
+- {:#idlab} IDLab,
+            Department of Electronics and Information Systems,
+            Ghent University – imec
+
+<section class="context" markdown="block">
+## In reply to
+- [Call for papers 2020, International Conference On Web Engineering](https://icwe2020.webengineering.org){:rel="as:inReplyTo"}
+</section>
+
+</header>
+
+<!-- Hack to make our custom fonts load in print-mode -->
+<!-- https://stackoverflow.com/questions/39364259/chrome-print-preview-doesnt-load-media-only-print-font-face -->
+<span class='printfont1'> </span>
+<span class='printfont2'> </span>
+<span class='printfont3'> </span>
+<span class='printfont4'> </span>
+
+<div class="double-column">
+
+ <%= section 'abstract' %>
+
+<!-- https://www.rubensworks.net/raw/publications/2016/Continuous_Client-Side_Query_Evaluation_over_Dynamic_Linked_Data.pdf -->
+
+<main>
+  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
+ <%= section 'introduction'  %>
+ <%= section 'sota'  %>
+  <%= section 'fieldreport'  %>
+  <%= section 'problemstatement'  %>
+  <%= section 'benchmark'  %>
+  <%= section 'discussion'  %>
+  <%= section 'conclusions'  %>
+</main>
+
+<footer>
+  <%= section 'acknowledgements'  %>
+</footer>
+
+</div>
