@@ -5,7 +5,7 @@ MaaS is able to calculate the least expensive route over multiple mobility provi
 
 <span class="printonly firstpagefooter">
 <span class="footnotecopyright">
-This is a print-version of an article first written for the Web. The Web-version will shortly be available.                              
+This is a print-version of an article first written for the Web. The Web-version is available at https://brechtvdv.github.io/Article-third-party-payment-schemes-for-maas/ .
 Copyright © 2020 for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).
 </span>
 </span>
