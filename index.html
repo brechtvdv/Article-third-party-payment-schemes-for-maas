@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Third-party payment specification for Mobility as a Service</title>
+  <link rel="stylesheet" media="screen" href="styles/screen.css" />
+  <link rel="stylesheet" media="print"  href="styles/print.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" media="all"    href="styles/katex.css" />
+  <meta name="citation_title" content="Third-party payment specification for Mobility as a Service">
+  <meta name="citation_author" content="Brecht Van de Vyvere" />
+  <meta name="citation_author" content="Dwight Van Lancker" />
+  <meta name="citation_author" content="Martin Vanbrabant" />
+  <meta name="citation_author" content="Maarten Venselaar" />
+  <meta name="citation_author" content="Stijn Vernaillen" />
+  <meta name="citation_author" content="Pieter Colpaert" />
+  <meta name="citation_author" content="Ruben Verborgh" />
+  
+  <meta name="citation_publication_date" content="2020/05/11" />
+</head>
+
+<body prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio# as: https://www.w3.org/ns/activitystreams# oa: http://www.w3.org/ns/oa# ldp: http://www.w3.org/ns/ldp#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+  <header>
+  <h1 id="third-party-payment-specification-for-mobility-as-a-service">Third-party payment specification for Mobility as a Service</h1>
+
+  <ul id="authors">
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://brechtvdv.github.io/" typeof="foaf:Person schema:Person" resource="https://w3id.org/people/brechtvdv/#me">Brecht Van de Vyvere</a><a href="#idlab"><sup>1</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="" typeof="foaf:Person schema:Person" resource="https://data.knows.idlab.ugent.be/person/dwightvanlancker/#me">Dwight Van Lancker</a><a href="#idlab"><sup>1</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="" typeof="foaf:Person schema:Person" resource="https://data.knows.idlab.ugent.be/person/martinvanbrabant/#me">Martin Vanbrabant</a><a href="#idlab"><sup>1</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="" typeof="foaf:Person schema:Person" resource="">Maarten Venselaar</a><a href="#thenewdrive"><sup>2</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://stijnvernaillen.be/" typeof="foaf:Person schema:Person" resource="">Stijn Vernaillen</a><a href="#antwerp"><sup>3</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://pietercolpaert.be" typeof="foaf:Person schema:Person" resource="https://pietercolpaert.be/#me">Pieter Colpaert</a><a href="#idlab"><sup>1</sup></a></li>
+    <li><a rev="lsc:participatesIn" property="foaf:maker schema:creator schema:author schema:publisher" href="https://ruben.verborgh.org/" typeof="foaf:Person schema:Person" resource="https://ruben.verborgh.org/profile/#me">Ruben Verborgh</a><a href="#idlab"><sup>1</sup></a></li>
+  </ul>
+
+  <ul id="affiliations">
+    <li id="idlab"><sup>1</sup>IDLab,
+          Department of Electronics and Information Systems,
+          Ghent University – imec</li>
+    <li id="thenewdrive"><sup>2</sup>The New Drive</li>
+    <li id="antwerp"><sup>3</sup>City of Antwerp</li>
+  </ul>
+
+  <section class="context">
+    <h2 id="in-reply-to">In reply to</h2>
+    <ul>
+      <li><a href="" rel="as:inReplyTo">TBD</a></li>
+    </ul>
+  </section>
+
+</header>
+
+<!-- Hack to make our custom fonts load in print-mode -->
+<!-- https://stackoverflow.com/questions/39364259/chrome-print-preview-doesnt-load-media-only-print-font-face -->
+<p><span class="printfont1"> </span>
+<span class="printfont2"> </span>
+<span class="printfont3"> </span>
+<span class="printfont4"> </span></p>
+
+<div class="double-column">
+
+ <section id="abstract" inlist="" rel="schema:hasPart" resource="#abstract">
+<div datatype="rdf:HTML" property="schema:description">
+      <h2 property="schema:name">Abstract</h2>
+
+      <p>MaaS is able to calculate the least expensive route over multiple mobility providers as billing information has already been standardized . However, this does not include third-party payment schemes where a third-party, such as a local government, has a separate agreement with several mobility providers and compensates a part of a travellers’ trip cost when certain criteria are met. We propose (i) a specification to set up a third-party payment system between local governments and MaaS providers where multimodal criteria and trips are  semantically described and (ii) an open source validator tool that based on these descriptions returns how much of a trip can be compensated. With this specification, third-party payment schemes become a reality for MaaS too that allow local governments to make combined mobility a financially smarter choice for travellers.</p>
+
+      <p><span class="printonly firstpagefooter">
+<span class="footnotecopyright">
+This is a print-version of an article first written for the Web. The Web-version will shortly be available.                            <br />
+Copyright © 2020 for this paper by its authors. Use permitted under Creative Commons License Attribution 4.0 International (CC BY 4.0).
+</span>
+</span></p>
+
+    </div>
+</section>
+
+
+<!-- https://www.rubensworks.net/raw/publications/2016/Continuous_Client-Side_Query_Evaluation_over_Dynamic_Linked_Data.pdf -->
+
+<main>
+  <!-- Add sections by specifying their file name, excluding the '.md' suffix. -->
+  <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Introduction</h2>
+
+        <p>A variety of mobility solutions (bus, bike, step etc.) have taken their place in the public domain space of cities. In Flanders, a new decree for Basic Accessibility (BA) has been installed, which envisions that important social locations must be optimally accessible to travellers. This means that people must be able to combine different mobility solutions easily. Combined mobility should not only be the case for last-mile travel within cities, but also within the whole region of Flanders. So-called Mobi points are being installed on the public domain to make these mobility solutions more physically interoperable. Mobility as a service (MaaS) providers have multiple mobility solutions integrated and are therefore crucial to guide people along the most optimal route, such as the least expensive route.</p>
+
+        <p>Standardized data models (<a property="schema:citation http://purl.org/spar/cito/cites" href="https://developers.google.com/transit/gtfs">GTFS</a> <span class="references">[<a href="#ref-1">1</a>]</span>, <a property="schema:citation http://purl.org/spar/cito/cites" href="https://github.com/openmobilityfoundation/mobility-data-specification">MDS</a> <span class="references">[<a href="#ref-2">2</a>]</span>) or Web APIs (<a property="schema:citation http://purl.org/spar/cito/cites" href="https://github.com/NABSA/gbfs">GBFS</a> <span class="references">[<a href="#ref-3">3</a>]</span>, <a property="schema:citation http://purl.org/spar/cito/cites" href="https://github.com/TOMP-WG/TOMP-API">TOMP API</a> <span class="references">[<a href="#ref-4">4</a>]</span>) allow MaaS to calculate the financial cost of a trip, however, this does not exist for third-party payment (TPP) schemes. A TPP system means that a mobility solution receives compensation directly from a third party, such as a local government, for a trip. Instead of having the traveller to pay the full cost, based on how long or how far a mobility resource is used, a TPP system requires that a traveller only pays any remaining amount for the trip. In exchange for this the third-party should be able to define under which criteria a  compensation occurs. A TPP system can be achieved as a pre- or postpaid system. A prepaid system is mostly implemented as vouchers that a third-party can buy from the mobility solution. Each voucher contains a predetermined value, such as free rides or credit that has been paid in front by the third-party. The latter then gives the vouchers to its target audience, which they can upload on their account. In a postpaid system, the third-party signs an agreement with the mobility solution that certain trips can be compensated. The mobility solution advances the costs and sends afterwards an invoice to the third-party. TPP systems are commonly set up between cities and mobility providers (<a href="#table-tpp">Table 1</a>) and results from a subsidy measurement that the local council decided on. On <a href="#table-tpp">Table 1</a>, we see a few examples of TPP systems in the cities Deinze, Leuven and Schoten. A user may get compensation when a trip meets certain criteria, such as a certain means of transport is used, it has taken place between the boundaries of the city or during an event. These are all set up in 1 to 1 agreements, which makes it very difficult for MaaS to discover and incorporate TPP systems in their route planning advice.</p>
+
+        <figure id="table-tpp" class="table">
+
+          <table>
+            <thead>
+              <tr>
+                <th>City</th>
+                <th>Description</th>
+                <th>Provider</th>
+                <th>Criteria</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Deinze</td>
+                <td>Free rides with shared bikes</td>
+                <td>Blue Bike</td>
+                <td>Location of the trip must be in Deinze</td>
+              </tr>
+              <tr>
+                <td>Leuven</td>
+                <td>Free rides with bus</td>
+                <td>De Lijn</td>
+                <td>Citizens younger than 12 years of district Leuven</td>
+              </tr>
+              <tr>
+                <td>Leuven</td>
+                <td>Discount on public transport</td>
+                <td>NMBS and De Lijn</td>
+                <td>During certain events</td>
+              </tr>
+              <tr>
+                <td>Schoten</td>
+                <td>Vouchers for 20 minutes free rides with shared bike</td>
+                <td>Mobit</td>
+                <td>During certain events</td>
+              </tr>
+              <tr>
+                <td>Schoten</td>
+                <td>Free rides with bus</td>
+                <td>De Lijn</td>
+                <td>During New Year’s Eve and Day</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <figcaption>
+            <p><span class="label">Table 1:</span> State of play of third-party payment schemes in Flanders</p>
+          </figcaption>
+        </figure>
+
+        <p>MaaS providers could also set up a TPP system, however, they have multiple mobility providers integrated, which only increases the need for a standardized description of mobility related rules and how they should be validated. For example: one city wants to support shared bikes by offering compensation of 1 Euro for every trip, while the other city wants to support scooters when they use the train beforehand. In this article, we propose a specification for a postpaid TPP system between local governments and MaaS providers. This includes how local governments need to describe their subsidy measurements and how MaaS providers can validate their trips with a subsidy measurement by using a shared validator.</p>
+
+        <p>The remainder of this article is structured as follows: we first describe two semantic based application profiles to describe trips and subsidy measurements. Then we explain our proposed TPP system and how this reuses the application profiles. Finally, we conclude how others can deploy our TPP system and explain our next steps.</p>
+
+      </div>
+</section>
+
+  <section id="background" inlist="" rel="schema:hasPart" resource="#background">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Background</h2>
+
+        <p>Open Standards for Linking Organizations (OSLO) <span class="references">[<a href="#ref-5">5</a>]</span>, a program of the Flanders Information Agency enables organizations in Flanders to cooperate in trajectories, to develop unambiguous standards for information exchange. The “OSLO mobility: trips and offer” standard <span class="references">[<a href="#ref-6">6</a>]</span> was triggered by the new decree Basic Accessibility in Flanders <span class="references">[<a href="#ref-7">7</a>]</span>, which states that important social locations must be optimally accessible to travellers. To realize this one must have a clear view on the existing mobility offer and on how to interconnect the various transport options in a multimodal mobility context. The standard consists of vocabularies for describing trips, transport networks and service offerings and of a “trips and offer” application profile (AP). The AP allows the exchange of data concerning (a) trips done by users and (b) the mobility services at their disposal. A trip can be executed over multiple routes (shortest, fastest etc.). A route consists of one or more route segments with every segment representing a part of the route using the same means of transport and taken without a transfer. The geospatial representation of these segments is described with directed links based on the INSPIRE data specification <span class="references">[<a href="#ref-8">8</a>]</span> for the spatial data theme Transport Networks.</p>
+
+        <p>The Local Council Decisions as Linked Open Data (LBLOD)<a href="cite: citesbuyle_iswc_demo_2016"></a> programme is a Flemish initiative to semantically annotate decisions of local governments. Local administrations currently have to upload certain decisions from their organization into Flemish base registries, such as the database for mandates or road sign database. By embedding RDFa in their documents, the Flemish government and third parties can harvest the information  themselves in an automatic way, similarly to search engines that harvest Schema.org annotations from websites. LBLOD has already initiated several OSLO trajectories for domain-specific decisions, such as the installment or removal of mandataries <span class="references">[<a href="#ref-9">9</a>]</span>, traffic <span class="references">[<a href="#ref-10">10</a>]</span> and subsidy regulations <span class="references">[<a href="#ref-11">11</a>]</span>. The “subsidies” AP reuses from the European ISA standard Core Criterion and Core Evidence Vocabulary (CCCEV) <span class="references">[<a href="#ref-12">12</a>]</span> the mechanism to describe criteria, requirements and how to group them. Local governments can define with this AP their subsidy measurements, such as mobility related compensations, its criteria and monetary compensation in a machine-readable way.</p>
+
+      </div>
+</section>
+
+  <section id="ttp" inlist="" rel="schema:hasPart" resource="#ttp">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Third-party payment specification</h2>
+
+        <p>The TPP specification<span class="references">[<a href="#ref-13">13</a>]</span> describes how local governments can provide trip compensation through MaaS. Inspired by projects like the Mobility Data Specifications (<a property="schema:citation http://purl.org/spar/cito/cites" href="https://github.com/openmobilityfoundation/mobility-data-specification">MDS</a> <span class="references">[<a href="#ref-2">2</a>]</span>) and <a property="schema:citation http://purl.org/spar/cito/cites" href="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-subsidie/">LBLOD</a> <span class="references">[<a href="#ref-11">11</a>]</span>, it provides a standards-based method to express subsidy measurements in a machine-readable format and how MaaS providers can validate their trips in an automated fashion. We will first give an overview (<a href="#ttpdiagram">Fig. 1</a>) of all the steps that need to be performed and give more details in the next subsections.</p>
+
+        <p>The system starts with the local government (agency), that defines which trips can be compensated. When a MaaS provider is found that can implement the subsidy for the city and conforms with the quality framework (QF) criteria, a setup agreement can be arranged. This agreement is annotated, according to LBLOD, with the machine-readable description of the subsidy measurement. After a user has performed a trip with the MaaS app, the trip is mapped in line with the OSLO trips and offer AP and can be validated with the annotated agreement. When this meets the criteria, the validator returns how much can be compensated. The MaaS provider reports the number of trip compensations in order that the agency can reimburse the MaaS provider back. This system meets the requirement of a third-party payment system, because a traveller will only need to pay any remaining amount for the trip and the third-party can define under which criteria a compensation may occur.</p>
+
+        <figure id="ttpdiagram" style="display:flex; flex-wrap:wrap">
+<center>
+<img src="img/tppdiagram.png" width="399px" style="min-width: 50%; flex:1; border: none; box-shadow: none;" />
+</center>
+<figcaption>
+            <p><span class="label">Fig. 1:</span> Overview of the steps an agency (top row) and MaaS provider (bottom row) needs to perform to setup a TPP scheme. After signing an agreement, the MaaS provider compensates trips after mapping and validating a users’ trip with the criteria of the subsidy measurement.</p>
+          </figcaption>
+</figure>
+
+        <h3 id="agreement">Agreement</h3>
+
+        <p>A template for an agreement is provided that agencies can use to set up a TPP system with a MaaS provider. It contains 5 articles that describe:</p>
+
+        <ul>
+          <li>the criteria that a trip must comply to for compensation</li>
+          <li>that extra costs behold to the user</li>
+          <li>billing happens on a quarterly basis based on an anonymized report of the compensation usage. This can of course be changed to, for example every month.</li>
+          <li>commitment to promote the TPP system to its residents and visitors</li>
+          <li>duration and cancellation</li>
+        </ul>
+
+        <p>For the criteria, the agency needs to fill in the means of transport (e.g. bike sharing system, train etc.) that must have been used during a trip. Also, its location is implicitly indicated with the administrative boundaries of the agency that initiates the agreement. Furthermore, the agency can set a fixed number of Euros that will be repaid to the MaaS provider when a trip meets the criteria. The duration is currently set to one year and renews automatically with one year. Another possibility would be to work with a fixed start and end date. A notice to cancel the agreement must be made at least 30 days before renewal.</p>
+
+        <h3 id="agency">Agency</h3>
+
+        <p>The agency can apply a qualification framework to support their decision when selecting the most appropriate MaaS provider(s). This is not part of the template, but criteria that could be part of this are:</p>
+
+        <ul>
+          <li>Integration: are all the mobility providers (shared mobility and public transport) that are active in the city integrated into the MaaS application?</li>
+          <li>Multimodal: are at least 3 modalities supported besides public transport?</li>
+          <li>Service level: is there a system for handling complaints and does it support Dutch and English?</li>
+          <li>Level of service: are subscription formulas or societal beneficial integrations such as third-party payment schemes supported?</li>
+          <li>Availability: is the availability of shared mobility resources displayed in real time?</li>
+          <li>Booking: is this available for B2C and does it support pay-as-you-go?</li>
+        </ul>
+
+        <p>A user story mapping workshop has been organised on 4th September 2019 with the partners of the <a property="schema:citation http://purl.org/spar/cito/cites" href="https://www.vlaio.be/nl/andere-doelgroepen/city-things-slimme-steden-en-gemeenten/city-things#MoDi2B">MoDi</a> <span class="references">[<a href="#ref-14">14</a>]</span> project. There it was clear that agencies want to offer compensations for at least certain means of transport, inside a certain location and for a certain time. Another important aspect is that agencies should be able to chain these criteria together so multimodal behaviour can be promoted. For example, remote municipalities can attract visitors that do not own cars by giving compensation when they take the train to the nearest station and then renting an electric bike for the last-mile travel.</p>
+
+        <p>Similarly to MDS that clarifies the structure of the JSON data that must be provided by specifying the fields in a table, we provide a JSON-LD template with corresponding table for each object. The agency (and the MaaS provider in the next section) needs to provide this for objects such as SubsidyMeasurement, Payment and RouteSegmentRequirement. This way, developers do not need to understand semantic technologies to get started and only need to fill in some fields. It is semantically interoperable with the OSLO and LBLOD APs through the JSON-LD context that is added. The subsidy measurement links to the criteria, which contains one or more requirements that must be validated with, and the payment that can be compensated. In <a href="#requirement">Fig. 2</a>, we give an example of a completed requirement for shared bikes in Leuven. It is possible to support multimodality by adding a criterion for every means of transport.</p>
+
+        <figure id="requirement" class="figure">
+ <pre><code>{
+</code><code>  &quot;@type&quot;: &quot;RouteSegmentRequirement&quot;,
+</code><code>  &quot;description&quot;: &quot;Only shared bikes, on monday between 4pm and 6pm and used in the city centre of Leuven.&quot;,
+</code><code>  &quot;meansOfTransport&quot;: &quot;http://www.wikidata.org/entity/Q1358919&quot;, // Bicycle sharing system
+</code><code>  &quot;location&quot;: {
+</code><code>  &quot;@type&quot;: &quot;Place&quot;,
+</code><code>    &quot;geometry&quot;: {
+</code><code>      &quot;wkt&quot;: &quot;POLYGON((4.676055908203124 50.88993205766312,4.723434448242187 50.89025691478409,4.72360610961914 50.86610302664647,4.675369262695312 50.86599468504889,4.676055908203124 50.88993205766312))&quot;
+</code><code>    }
+</code><code>  },
+</code><code>  &quot;time&quot;: [{
+</code><code>    &quot;@type&quot;: &quot;OpeningHoursSpecification&quot;,
+</code><code>    &quot;dayOfWeek&quot;: &quot;http://schema.org/Monday&quot;,
+</code><code>    &quot;startTime&quot;: &quot;15:00:00&quot;
+</code><code>    &quot;endTime&quot;: &quot;18:00:00&quot;
+</code><code>  }]
+</code><code>}</code></pre>
+<figcaption>
+            <p><span class="label">Fig. 2:</span> A traveller is eligible for a subsidy measurement when he uses a shared bicycle within the centre of Leuven and on a monday during rush hours.</p>
+          </figcaption>
+</figure>
+
+        <h3 id="provider">Provider</h3>
+
+        <p>Providers that signed an agreement with an agency need to map every trip to the OSLO mobility standard for trips and offers in order to use a shared validator. The route that has been executed during the trip is split into several route segments. The latter needs to be specified with the time of departure and arrival, the GPS telemetry, the price and which transport system is used. <a href="#routesegment">Fig. 3</a> demonstrates this for a route segment that used a shared bike system during rush hours and has cost 8.2 Euros without TPP compensation involved. If the telemetry is located within the centre of Leuven, then it complies with the route segment requirement of <a href="#requirement">Fig. 2</a>.</p>
+
+        <figure id="routesegment" class="figure">
+ <pre><code>{
+</code><code>  &quot;@type&quot;: &quot;RouteSegment&quot;,
+</code><code>  &quot;departureTime&quot;: &quot;2020-06-09T16:01:00&quot;,
+</code><code>  &quot;arrivalTime&quot;: &quot;2020-06-09T17:05:00&quot;,
+</code><code>  &quot;telemetry&quot;: [ … ],
+</code><code>  &quot;price&quot;: {
+</code><code>     &quot;@type&quot;: &quot;MonetaryAmount&quot;,
+</code><code>     &quot;value&quot;: &quot;8.2&quot;,
+</code><code>     &quot;currency&quot;: &quot;EUR&quot;
+</code><code> },
+</code><code>  &quot;meansOfTransport&quot;: &quot;http://www.wikidata.org/entity/Q1358919&quot; // used a shared bike system
+</code><code>}
+</code></pre>
+<figcaption>
+            <p><span class="label">Fig. 3:</span> This route segment is performed during rush hours in the centre of Leuven with a shared bike system. The location data is omitted for space savings.</p>
+          </figcaption>
+</figure>
+
+        <p>With the standardized description of a trip and subsidy measurement as expected input, an Open Source validator is being developed that MaaS providers can incorporate into their software. This way, they do not need to implement subsidy measurements themselves, validation happens internally (privacy-sensitive trip data remains on the server) and more complex criteria for the needs of agencies can be implemented in the future without raising the complexity for MaaS providers. The validator is written in Node.js and can be invoked through the Command Line Interface (CLI). It returns whether a trip conforms with the subsidy measurement and how much compensation can be given. In future work, we will provide a programmatic API and publish it on the NPM registry for easier adoption. We also are looking into wrapping this with a Web API and offer this as a Docker container.</p>
+
+      </div>
+</section>
+
+  <section id="conclusion" inlist="" rel="schema:hasPart" resource="#conclusion">
+<div datatype="rdf:HTML" property="schema:description">
+        <h2 property="schema:name">Conclusion</h2>
+
+        <p>The TPP specification provides the first steps for deploying a third-party payment system that supports combined mobility inside a city. Cities can reuse the agreement, but will need a translation from Dutch if necessary. The JSON-LD description of the subsidy measurement needs to be defined separately from the agreement, but in future work non-technical profiles should be able to create this by using the semantic enabled editor Say, which is pushed forward by the LBLOD programme. A dynamic input form could be provided inside the agreement that creates the semantic annotations behind the screens. This description can also be used for the promotion of the TPP system by embedding it into the website of the city. A MaaS provider (cfr. Jeasy) already showed interest in harvesting this to increase the visibility of financially interesting routes to its users, similarly to healthier routes based on air quality or noise.</p>
+
+        <p>Both application profiles (AP), OSLO mobility “trips and offer” and LBLOD subsidy, are standardized within the Flemish government through the OSLO governance structure. They are respectively aligned with the European standards INSPIRE and CCCEV. To reuse our solution outside Flanders, it is important to make incentives towards these standards and the mentioned APs to increase the semantically interoperability with our proposed validator.</p>
+
+        <p>Like mobi points and MaaS are lowering the barrier for combined mobility, cities should also start to provide TPPs for combined mobility by working together with MaaS providers. In the end, with our proposed TPP specification, cities can deploy the same subsidy measurement with multiple MaaS providers, because they have to use the same validator. Also mobility providers can deploy this when the criteria are within their offering. This will be beneficial for the end user as they will have the ability to choose the mobility application to their liking. In the near future, we will test the TPP specification within a few cities and work further on the validator to make it an industry-ready tool.</p>
+
+      </div>
+</section>
+
+</main>
+
+<footer>
+<section>
+<h2 id="references">References</h2>
+<dl class="references">
+  <dt id="ref-1">[1]</dt>
+  <dd resource="https://developers.google.com/transit/gtfs" typeof="schema:CreativeWork">Google: GTFS overview. <a href="https://developers.google.com/transit/gtfs">https:/​/​developers.google.com/transit/gtfs</a></dd>
+  <dt id="ref-2">[2]</dt>
+  <dd resource="https://github.com/openmobilityfoundation/mobility-data-specification" typeof="schema:CreativeWork">Foundation, O.M.: Mobility Data Specification (MDS). <a href="https://github.com/openmobilityfoundation/mobility-data-specification">https:/​/​github.com/openmobilityfoundation/mobility-data-specification</a></dd>
+  <dt id="ref-3">[3]</dt>
+  <dd resource="https://github.com/NABSA/gbfs" typeof="schema:CreativeWork">Association, N.A.B.S.: General Bikeshare Feed Specification. <a href="https://github.com/NABSA/gbfs">https:/​/​github.com/NABSA/gbfs</a></dd>
+  <dt id="ref-4">[4]</dt>
+  <dd resource="https://github.com/TOMP-WG/TOMP-API" typeof="schema:CreativeWork">working group, T.O.M.P.: Transport Operator Mobility Provider (TOMP) API development for Mobility as a Service. <a href="https://github.com/TOMP-WG/TOMP-API">https:/​/​github.com/TOMP-WG/TOMP-API</a></dd>
+  <dt id="ref-5">[5]</dt>
+  <dd resource="https://dx.doi.org/10.1145/3014087.3014096" typeof="schema:Article">Buyle, R., De Vocht, L., Van Compernolle, M., De Paepe, D., Verborgh, R., Vanlishout, Z., De Vidts, B., Mechant, P., Mannens, E.: OSLO: Open Standards for Linked Organizations. In: Proceedings of the International Conference on Electronic Governance and Open Society: Challenges in Eurasia. pp. 126–134 (2016).</dd>
+  <dt id="ref-6">[6]</dt>
+  <dd resource="https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/" typeof="schema:CreativeWork">OSLO: OSLO mobility: trips and offer. <a href="https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/">https:/​/​data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/</a></dd>
+  <dt id="ref-7">[7]</dt>
+  <dd resource="https://www.vlaanderen.be/basisbereikbaarheid/het-decreet-basisbereikbaarheid" typeof="schema:CreativeWork">Department of Mobility &amp; Public Works: Decree Basic Accessibility. <a href="https://www.vlaanderen.be/basisbereikbaarheid/het-decreet-basisbereikbaarheid">https:/​/​www.vlaanderen.be/basisbereikbaarheid/het-decreet-basisbereikbaarheid</a></dd>
+  <dt id="ref-8">[8]</dt>
+  <dd resource="https://inspire.ec.europa.eu/id/document/tg/tn" typeof="schema:CreativeWork">INSPIRE Thematic Working Group Transport Networks: INSPIRE Data Specification on Transport Networks – Technical Guidelines. <a href="https://inspire.ec.europa.eu/id/document/tg/tn">https:/​/​inspire.ec.europa.eu/id/document/tg/tn</a></dd>
+  <dt id="ref-9">[9]</dt>
+  <dd resource="https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/" typeof="schema:CreativeWork">Flemish Agency for Domestic Governance: LBLOD mandate registery. <a href="https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/">https:/​/​data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/</a></dd>
+  <dt id="ref-10">[10]</dt>
+  <dd resource="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/" typeof="schema:CreativeWork">Flemish Agency for Domestic Governance: LBLOD traffic measurement. <a href="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/">https:/​/​data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/</a></dd>
+  <dt id="ref-11">[11]</dt>
+  <dd resource="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-subsidie/" typeof="schema:CreativeWork">Flemish Agency for Domestic Governance: LBLOD subsidies. <a href="https://data.vlaanderen.be/doc/applicatieprofiel/besluit-subsidie/">https:/​/​data.vlaanderen.be/doc/applicatieprofiel/besluit-subsidie/</a></dd>
+  <dt id="ref-12">[12]</dt>
+  <dd resource="https://joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100" typeof="schema:CreativeWork">ISA programme - European Union: Core Criterion and Core Evidence. <a href="https://joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100">https:/​/​joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100</a></dd>
+  <dt id="ref-13">[13]</dt>
+  <dd resource="https://github.com/brechtvdv/third-party-payment-maas-specification" typeof="schema:CreativeWork">Van de Vyvere, B., Venselaar, M.: Third-party payment specification. <a href="https://github.com/brechtvdv/third-party-payment-maas-specification">https:/​/​github.com/brechtvdv/third-party-payment-maas-specification</a></dd>
+  <dt id="ref-14">[14]</dt>
+  <dd resource="https://www.vlaio.be/nl/andere-doelgroepen/city-things-slimme-steden-en-gemeenten/city-things#MoDi2B" typeof="schema:CreativeWork">of Things, V.L.A.I.O.C.: Mobiliteit als een Dienst MoDi. <a href="https://www.vlaio.be/nl/andere-doelgroepen/city-things-slimme-steden-en-gemeenten/city-things#MoDi2B">https:/​/​www.vlaio.be/nl/andere-doelgroepen/city-things-slimme-steden-en-gemeenten/city-things#MoDi2B</a></dd>
+</dl>
+</section>
+</footer>
+
+</div>
+
+
+
+</body>
+</html>

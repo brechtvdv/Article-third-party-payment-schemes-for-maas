@@ -1,0 +1,12 @@
+{
+  "@type": "RouteSegment",
+  "departureTime": "2020-06-09T16:01:00",
+  "arrivalTime": "2020-06-09T17:05:00",
+  "telemetry": [ … ],
+  "price": {
+     "@type": "MonetaryAmount",
+     "value": "8.2",
+     "currency": "EUR"
+ },
+  "meansOfTransport": "http://www.wikidata.org/entity/Q1358919" // used a shared bike system
+}
