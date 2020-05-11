@@ -1,39 +1,28 @@
 {:	data{:
-edges[[i\i{	:raw_contento:Set:
-@hash}I"/abstract.*:ETTI"/introduction.*;
-TTI"/sota.*;
-TTI"/fieldreport.*;
-TTI"/problemstatement.*;
-TTI"/benchmark.*;
-TTI"/discussion.*;
-TTI"/conclusions.*;
-TTI"/acknowledgements.*;
+edges[[iSi{	:raw_contento:Set:
+@hash}I"/abstract.*:ETTI"/introduction.*;
+TTI"/background.*;
+TTI"/tpp.*;
+TTI"/conclusion.*;
+TTI"/code/requirement.jsonld;
+TTI"/code/routesegment.jsonld;
 TTI"/styles/katex.css;
-TTF:attributesF:compiled_contentF:	pathF[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[i
-i{	;T;F;F;F[i	i{	;T;F;F;F[ii{	;T;F;F;F[i[i{	;T;F;F;F[i\i{	;T;F;F;F[ii{	;T;F;T;F[ii{	;T;F;T;F[i\i{	;T;F;F;F[ii{	;T;F;T;F[ii{	;T;F;T;F:vertices[]0I"item:/abstract.md;
-TI"item:/acknowledgements.md;
-TI"item:/benchmark.md;
-TI"item:/conclusions.md;
-TI"item:/discussion.md;
-TI"item:/fieldreport.md;
-TI"item:/img/cloudlab.PNG;
-TI"item:/img/cpu.png;
-TI"item:/img/memory.PNG;
-TI"item:/img/memory.png;
-TI"item:/img/polling.png;
-TI"(item:/img/polling_without_cache.png;
-TI"$item:/img/pubsub_with_sleep.png;
-TI";item:/img/Retrieving latest data with HTTP polling.png;
+TTF:attributesF:compiled_contentF:	pathF[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[ii{	;T;F;F;F[i
+i{	;T;F;F;F[ii{	;T;F;F;F[i	i{	;T;F;F;F[iRi{	;T;F;F;F[iSi{	;T;F;F;F[ii{	;T;F;T;F[ii{	;T;F;T;F[iSi{	;T;F;F;F[ii{	;T;F;T;F[ii{	;T;F;T;F:vertices[T0I"item:/abstract.md;
+TI"item:/background.md;
+TI""item:/code/requirement.jsonld;
+TI"#item:/code/routesegment.jsonld;
+TI"item:/conclusion.md;
+TI"item:/img/tppdiagram.png;
 TI"item:/index.md.erb;
 TI"item:/introduction.md;
-TI"item:/problemstatement.md;
 TI"item:/references.bib;
-TI"item:/sota.md;
 TI"item:/styles/lncs.scss;
 TI"item:/styles/print.scss;
 TI"item:/styles/reset.scss;
 TI"item:/styles/screen.scss;
 TI"item:/styles/shared.scss;
+TI"item:/tpp.md;
 TI"item:/styles/katex.css;
 TI"-item:/styles/fonts/KaTeX_AMS-Regular.ttf;
 TI".item:/styles/fonts/KaTeX_AMS-Regular.woff;
