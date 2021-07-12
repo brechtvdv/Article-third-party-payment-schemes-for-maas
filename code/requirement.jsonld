@@ -1,7 +1,7 @@
 {
   "@type": "RouteSegmentRequirement",
   "description": "Only shared bikes, on monday between 4pm and 6pm and used in the city centre of Leuven.",
-  "meansOfTransport": "http://www.wikidata.org/entity/Q1358919", // Bicycle sharing system
+  "meansOfTransport": "http://www.wikidata.org/entity/Q1358919", // Bike
   "location": {
   "@type": "Place",
     "geometry": {
