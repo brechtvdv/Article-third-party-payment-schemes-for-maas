@@ -8,5 +8,5 @@
      "value": "8.2",
      "currency": "EUR"
  },
-  "meansOfTransport": "http://www.wikidata.org/entity/Q1358919" // used a shared bike system
+  "meansOfTransport": "http://www.wikidata.org/entity/Q1358919" // Shared bike
 }
