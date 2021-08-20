@@ -1,0 +1,64 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\providecommand{\doi}[1]{https://doi.org/#1}
+
+\bibitem{gbfs}
+Association, N.A.B.S.: General bikeshare feed specification,
+  \url{https://github.com/NABSA/gbfs}
+
+\bibitem{buyle_iswc_demo_2016}
+Buyle, R., Colpaert, P., Van~Compernolle, M., Mechant, P., Volders, V.,
+  Verborgh, R., Mannens, E.: Local council decisions as linked data: a proof of
+  concept. In: Kawamura, T., Paulheim, H. (eds.) Proceedings of the 15th
+  International Semantic Web Conference: Posters and Demos. CEUR Workshop
+  Proceedings, vol.~1690 (Oct 2016), \url{http://pieter.pm/iswc2016-demo-lbld/}
+
+\bibitem{buyle_egose_2016}
+Buyle, R., De~Vocht, L., Van~Compernolle, M., De~Paepe, D., Verborgh, R.,
+  Vanlishout, Z., De~Vidts, B., Mechant, P., Mannens, E.: Oslo: Open standards
+  for linked organizations. In: Proceedings of the International Conference on
+  Electronic Governance and Open Society: Challenges in Eurasia. pp. 126--134
+  (Nov 2016). \doi{10.1145/3014087.3014096},
+  \url{https://dl.acm.org/authorize?N20629}
+
+\bibitem{mandate}
+for Domestic~Governance, F.A.: Lblod mandate registery,
+  \url{https://data.vlaanderen.be/doc/applicatieprofiel/mandatendatabank/}
+
+\bibitem{subsidymeasurement}
+for Domestic~Governance, F.A.: Lblod subsidies,
+  \url{https://data.vlaanderen.be/doc/applicatieprofiel/besluit-subsidie/}
+
+\bibitem{trafficmeasurement}
+for Domestic~Governance, F.A.: Lblod traffic measurement,
+  \url{https://data.vlaanderen.be/doc/applicatieprofiel/besluit-mobiliteit/}
+
+\bibitem{cccev}
+programme European~Union, I.: Core criterion and core evidence,
+  \url{https://joinup.ec.europa.eu/release/core-criterion-and-core-evidence-vocabulary-v100}
+
+\bibitem{mds}
+Foundation, O.M.: Mobility data specification (mds),
+  \url{https://github.com/openmobilityfoundation/mobility-data-specification}
+
+\bibitem{gtfs}
+Google: Gtfs overview, \url{https://developers.google.com/transit/gtfs}
+
+\bibitem{tompapi}
+working group, T.: Transport operator mobility provider (tomp) api development
+  for mobility as a service, \url{https://github.com/TOMP-WG/TOMP-API}
+
+\bibitem{ba}
+of~Mobility, D., Works, P.: Decree basic accessibility,
+  \url{https://www.vlaanderen.be/basisbereikbaarheid/het-decreet-basisbereikbaarheid}
+
+\bibitem{tripsandoffer}
+OSLO: Oslo mobility: trips and offer,
+  \url{https://data.vlaanderen.be/doc/applicatieprofiel/mobiliteit-trips-en-aanbod/}
+
+\bibitem{tpp}
+Van~de Vyvere, B., Venselaar, M.: Third-party payment specification,
+  \url{https://github.com/brechtvdv/third-party-payment-maas-specification}
+
+\end{thebibliography}

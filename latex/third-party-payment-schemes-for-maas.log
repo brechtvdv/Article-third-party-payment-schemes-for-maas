@@ -1,0 +1,419 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6.28) (preloaded format=pdflatex 2021.7.13)  19 AUG 2021 15:38
+entering extended mode
+**./third-party-payment-schemes-for-maas.tex
+(third-party-payment-schemes-for-maas.tex
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-06-18> (llncs.cls
+Document Class: llncs 2018/03/10 v2.20 
+ LaTeX document class for Lecture Notes in Computer Science
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cl
+s
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.
+sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count190
+\mult@box=\box50
+\multicol@leftmargin=\dimen139
+\c@unbalance=\count191
+\c@collectmore=\count192
+\doublecol@number=\count193
+\multicoltolerance=\count194
+\multicolpretolerance=\count195
+\full@width=\dimen140
+\page@free=\dimen141
+\premulticols=\dimen142
+\postmulticols=\dimen143
+\multicolsep=\skip49
+\multicolbaselineskip=\skip50
+\partial@page=\box51
+\last@line=\box52
+\maxbalancingoverflow=\dimen144
+\mult@rightbox=\box53
+\mult@grightbox=\box54
+\mult@gfirstbox=\box55
+\mult@firstbox=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\@tempa=\box60
+\@tempa=\box61
+\@tempa=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\c@minrows=\count196
+\c@columnbadness=\count197
+\c@finalcolumnbadness=\count198
+\last@try=\dimen145
+\multicolovershoot=\dimen146
+\multicolundershoot=\dimen147
+\mult@nat@firstbox=\box94
+\colbreak@box=\box95
+\mc@col@check@num=\count199
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\aliasc
+nt.sty
+Package: aliascnt 2018/09/07 v1.5 Alias counters (HO)
+)
+\c@chapter=\count266
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 362.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 363.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 364.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 365.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 366.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 367.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 368.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 369.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 370.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 371.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 372.
+\tocchpnum=\dimen148
+\tocsecnum=\dimen149
+\tocsectotal=\dimen150
+\tocsubsecnum=\dimen151
+\tocsubsectotal=\dimen152
+\tocsubsubsecnum=\dimen153
+\tocsubsubsectotal=\dimen154
+\tocparanum=\dimen155
+\tocparatotal=\dimen156
+\tocsubparanum=\dimen157
+\@tempcntc=\count267
+\fnindent=\dimen158
+\c@@inst=\count268
+\c@@auth=\count269
+\c@auco=\count270
+\instindent=\dimen159
+\authrun=\box96
+\authorrunning=\toks16
+\tocauthor=\toks17
+\titrun=\box97
+\titlerunning=\toks18
+\toctitle=\toks19
+\c@theorem=\count271
+\c@case=\count272
+\c@conjecture=\count273
+\c@corollary=\count274
+\c@definition=\count275
+\c@example=\count276
+\c@exercise=\count277
+\c@lemma=\count278
+\c@note=\count279
+\c@problem=\count280
+\c@property=\count281
+\c@proposition=\count282
+\c@question=\count283
+\c@solution=\count284
+\c@remark=\count285
+\headlineindent=\dimen160
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cx.sty
+Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval
+.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphi
+cs.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.s
+ty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\gr
+aphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pd
+ftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.sty
+\lst@mode=\count286
+\lst@gtempboxa=\box98
+\lst@token=\toks21
+\lst@length=\count287
+\lst@currlwidth=\dimen163
+\lst@column=\count288
+\lst@pos=\count289
+\lst@lostspace=\dimen164
+\lst@width=\dimen165
+\lst@newlines=\count290
+\lst@lineno=\count291
+\lst@maxwidth=\dimen166
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmis
+c.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count292
+\lst@skipnumbers=\count293
+\lst@framebox=\box99
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/listings\listin
+gs.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\co
+lor.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3bac
+kend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count294
+\l__pdf_internal_box=\box100
+) (third-party-payment-schemes-for-maas.aux)
+\openout1 = `third-party-payment-schemes-for-maas.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\sup
+p-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count295
+\scratchdimen=\dimen167
+\scratchbox=\box101
+\nofMPsegments=\count296
+\nofMParguments=\count297
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count298
+\MPscratchDim=\dimen168
+\MPnumerator=\count299
+\makeMPintoPDFobject=\count300
+\everyMPtoPDFconversion=\toks23
+)
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\Administrator\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstop
+df-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+\c@lstlisting=\count301
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 83.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+83.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 83.
+
+
+LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 83.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 83.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 83.
+[1
+
+{C:/Users/Administrator/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+Underfull \hbox (badness 4699) in paragraph at lines 107--108
+[]\OT1/cmr/m/n/9 Citizens younger than 12
+ []
+
+
+Underfull \hbox (badness 1178) in paragraph at lines 108--108
+[]\OT1/cmr/m/n/9 NMBS and
+ []
+
+
+Overfull \hbox (7.79385pt too wide) in paragraph at lines 120--121
+\OT1/cmr/m/n/10 jec-to-ries, to de-velop un-am-bigu-ous stan-dards for in-for-m
+a-tion ex-change. The \OSLO
+ []
+
+[2]
+<./img//tppdiagram.png, id=22, 1350.04375pt x 429.605pt>
+File: ./img//tppdiagram.png Graphic file (type png)
+<use ./img//tppdiagram.png>
+Package pdftex.def Info: ./img//tppdiagram.png  used on input line 129.
+(pdftex.def)             Requested size: 347.12354pt x 110.45572pt.
+ [3] [4 <./img//tppdiagram.png>] (third-party-payment-schemes-for-maas.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+[]\OT1/cmr/m/n/9 Association, N.A.B.S.: Gen-eral bike-share feed spec-i-fi-ca-t
+ion,
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
+[]\OT1/cmr/m/n/9 for Do-mes-tic Gov-er-nance, F.A.: Lblod man-date reg-is-tery,
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+[]\OT1/cmr/m/n/9 for Do-mes-tic Gov-er-nance, F.A.: Lblod sub-si-dies,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
+[]\OT1/cmr/m/n/9 for Do-mes-tic Gov-er-nance, F.A.: Lblod traf-fic mea-sure-men
+t,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+[]\OT1/cmr/m/n/9 programme Eu-ro-pean Union, I.: Core cri-te-rion and core ev-i
+-dence,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--40
+\OT1/cmr/m/n/9 https://joinup.ec.europa.eu/release/core-criterion-and-core-evid
+ence-vocabulary-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--44
+[]\OT1/cmr/m/n/9 Foundation, O.M.: Mo-bil-ity data spec-i-fi-ca-tion (mds),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+[]\OT1/cmr/m/n/9 of Mo-bil-ity, D., Works, P.: De-cree ba-sic ac-ces-si-bil-ity
+,
+ []
+
+
+Overfull \hbox (61.40913pt too wide) in paragraph at lines 57--59
+[]\OT1/cmr/m/n/9 OSLO: Oslo mo-bil-ity: trips and of-fer, https://data.vlaander
+en.be/doc/applicatieprofiel/mobiliteit-
+ []
+
+
+Underfull \hbox (badness 6016) in paragraph at lines 61--63
+[]\OT1/cmr/m/n/9 Van de Vy-vere, B., Vense-laar, M.: Third-party pay-ment spec-
+i-fi-ca-tion,
+ []
+
+) [6] (third-party-payment-schemes-for-maas.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 3823 strings out of 478847
+ 53545 string characters out of 2844594
+ 470694 words of memory out of 3000000
+ 21760 multiletter control sequences out of 15000+600000
+ 408437 words of font info for 44 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,10n,66p,2653b,1723s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm0600.pk> <C:\Users\Administrator\AppData\Local\MiKTeX\fonts/pk/ljfour/j
+knappen/ec/dpi600\tcrm0900.pk><C:/Users/Administrator/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Administrator/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Admin
+istrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/Administrator/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Administrator/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Admini
+strator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Administrator/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Users/Administrator/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/Admi
+nistrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.p
+fb><C:/Users/Administrator/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmtt9.pfb>
+Output written on third-party-payment-schemes-for-maas.pdf (6 pages, 250777 byt
+es).
+PDF statistics:
+ 104 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+
